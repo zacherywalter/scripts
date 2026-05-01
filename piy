@@ -1,0 +1,19 @@
+#!/usr/bin/expect
+
+# PIY (python it yourself)
+# inspired by tsouchlos sway config line with expect:
+# bindsym $mod+p exec kitty -e 
+# /usr/bin/expect -c 
+# "
+# 	spawn python; expect \\"*>>> \\";
+# 	send \\"import numpy as np\n\\";
+# 	send \\"import sympy as sp\n\\";
+# 	interact
+# "
+
+spawn python;
+expect "*>>>";
+send "import numpy as np\n";
+send "import sympy as sp\n";
+send "import math\n";
+interact
