@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+word=$1
+python $HOME/scripts/big_letters.py $word
