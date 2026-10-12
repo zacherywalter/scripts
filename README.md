@@ -6,12 +6,12 @@ alias syn='synonym'
 alias def='define'
 ```
 ## Commands
-'''bash
+```bash
 synonym <word>
 define <word>
 piy			# python it yourself
 big_letters		# write a word in big letters
-'''
+```
 
 ## Dependencies
 expect
