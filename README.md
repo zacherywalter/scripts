@@ -9,9 +9,14 @@ alias def='define'
 ```bash
 synonym <word>
 define <word>
-piy			# python it yourself
+neighbors <word>	# list the 'neighbors' of a word
+word_dist <word1> <word2> # find the 'hamming distance' between 2 words
 big_letters		# write a word in big letters
+piy			# python it yourself
 ```
 
 ## Dependencies
 expect
+
+python: enchant
+for installing german dict see WORDGRAPH.md
