@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+start_word=$1
+end_word=$2
+python $HOME/scripts/word_dist.py $start_word $end_word
