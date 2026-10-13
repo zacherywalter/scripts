@@ -3,7 +3,7 @@ import enchant
 
 def get_neighbors(word, dictionaries):
     neighbors = set()
-    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    alphabet = 'aäbcdefghijklmnoöpqrstuüvwxyz'
     
     for i in range(len(word)):
         for char in alphabet:
