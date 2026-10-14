@@ -28,4 +28,4 @@ if __name__ == "__main__":
     dicts = (enchant.Dict("en_UK"), enchant.Dict("en_US"), enchant.Dict("de_DE"))
     
     valid_neighbors = get_neighbors(target_word, dicts)
-    print(f"Neighbors for '{target_word}': {valid_neighbors}")
+    print(valid_neighbors)
