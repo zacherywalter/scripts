@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-word=$1
-python $HOME/scripts/synonym.py $word | less
