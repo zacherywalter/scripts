@@ -1,3 +1,6 @@
 [submodule "word-graph"]
 	path = word-graph
 	url = git@github.com:zacherywalter/word-graph
+[submodule "big-letters"]
+	path = big-letters
+	url = git@github.com:zacherywalter/big-letters
