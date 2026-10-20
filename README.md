@@ -1,4 +1,8 @@
 # scripts
+```bash
+git clone --recurse-submodules git@github.com:zacherywalter/scripts
+```
+
 a few fun scripts for easy terminal use. add this to zshrc
 ```bash
 export PATH=$PATH:~/scripts  # add scripts to path
