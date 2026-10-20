@@ -1,13 +1,13 @@
 # scripts
-a few fun scripts for easy terminal use. add this to zshrc
+a few fun scripts for easy terminal use. 
 ```bash
 cd $HOME && git clone --recurse-submodules git@github.com:zacherywalter/scripts
 ```
+add this to zshrc:
 ```bash
 export PATH=$PATH:~/scripts/bin  # add scripts to path
-alias syn='synonym'
-alias def='define'
 ```
+
 ## Commands
 ```bash
 synonym <word>
@@ -19,5 +19,5 @@ piy				# python it yourself
 ```
 
 ## Dependencies
-expect
+expect,
 python: enchant		# for installing german dict see word-graph/README.md
