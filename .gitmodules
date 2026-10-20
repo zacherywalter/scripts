@@ -4,3 +4,7 @@
 [submodule "big-letters"]
 	path = big-letters
 	url = git@github.com:zacherywalter/big-letters
+[submodule "major-tom"]
+	path = major-tom
+	url = git@github.com:zacherywalter/major-tom
+
