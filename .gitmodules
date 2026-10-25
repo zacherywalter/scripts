@@ -8,3 +8,6 @@
 	path = major-tom
 	url = git@github.com:zacherywalter/major-tom
 
+[submodule "howto"]
+	path = howto
+	url = git@github.com:zacherywalter/howto
