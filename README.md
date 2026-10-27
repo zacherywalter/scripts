@@ -16,6 +16,7 @@ neighbors <word>		# list the 'neighbors' of a word
 word_dist <word1> <word2> 	# find the 'hamming distance' between 2 words
 big_letters <word>		# write a word in big letters
 piy				# python it yourself
+major_peg <number>		# get pegs for a given number (see major-tom/README.md)
 ```
 
 ## Dependencies
